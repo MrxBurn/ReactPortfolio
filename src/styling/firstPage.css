@@ -1,4 +1,4 @@
-div {
+#firstPage {
     background-image: url('../assets/background.jpg');
     background-position: center;
     background-repeat: no-repeat;
@@ -8,3 +8,45 @@ div {
 
 }
  
+#greet {
+    text-align: center;
+    margin: 0;
+    padding: 10rem 0 0;
+    color: white;
+    font-size: 64px;
+    font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+      "Lucida Sans", Arial, sans-serif;
+}
+
+#role {
+    position: absolute;
+    bottom: 5rem;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+    text-align: center;
+    margin: 0;
+    padding: 10rem 0 0;
+    color: white;
+    font-size: 48px;
+    font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+      "Lucida Sans", Arial, sans-serif;
+}
+
+#arrowDown {
+    position: absolute;
+    bottom: 0;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+    border: 0;
+    background-color: transparent;
+    fill: white !important;
+    background-image: url(../assets/materialUI/arrow_down.svg);
+    width: 32px;
+    height: 32px;
+    background-repeat: no-repeat;
+    background-position: center;
+}

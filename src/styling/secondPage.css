@@ -1,0 +1,8 @@
+#secondPage {
+    background-image: url('../assets/background.gif');
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+}
