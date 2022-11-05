@@ -1,0 +1,36 @@
+div {
+    background-image: url('../assets/background.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+
+}
+ 
+
+
+#greet {
+    text-align: center;
+    margin: 0;
+    padding: 10rem 0 0;
+    color: white;
+    font-size: 64px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+#role {
+    position: absolute;
+    bottom: 5rem;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+    text-align: center;
+    margin: 0;
+    padding: 10rem 0 0;
+    color: white;
+    font-size: 48px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    
+}
