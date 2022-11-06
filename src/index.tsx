@@ -8,9 +8,11 @@ const root = ReactDOM.createRoot(
   document.getElementById('root') as HTMLElement
 );
 root.render(
-<body>
+<html>
+
 <IntroPage/>
-</body>
+</html>
+
   
 );
 
