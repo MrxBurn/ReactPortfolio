@@ -65,3 +65,22 @@ p {
     background-position: center;
 }
 
+#arrowDownBackground {
+    margin-left: 49.1%;
+    position:absolute;
+    left: 0;
+    right: 0;
+    top: 195vh;
+    
+    border-radius: 30px;
+    border: 0;
+    background-color: black;
+    background-image: url(../assets/materialUI/arrow_down.svg);
+    width: 40px;
+    height: 40px;
+    background-repeat: no-repeat;
+    background-position: center;
+    
+    
+}
+

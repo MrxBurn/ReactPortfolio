@@ -6,7 +6,7 @@ import './styling/secondPage.css'
 function IntroPage(): JSX.Element {
   const sRef = useRef<HTMLDivElement>(null);
   const fRef = useRef<HTMLDivElement>(null);
-
+  const lRef = useRef<HTMLDivElement>(null);
   return (
     <div>
       <div ref={fRef} id="firstPage">
@@ -17,7 +17,10 @@ function IntroPage(): JSX.Element {
       <div ref={sRef} id="secondPage">
       <button onClick={() => fRef.current?.scrollIntoView({ behavior: "smooth" })} id="arrowUp"></button>
         <SecondPage/>
-
+      <button onClick={() => lRef.current?.scrollIntoView({ behavior: "smooth" })} id="arrowDownBackground"></button>
+      </div>
+      <div ref={lRef} id="secondPage">
+      <button onClick={() => sRef.current?.scrollIntoView({ behavior: "smooth" })} id="arrowUp"></button>      
       </div>
     </div>
    
