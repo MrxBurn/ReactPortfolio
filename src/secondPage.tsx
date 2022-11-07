@@ -8,10 +8,9 @@ import cyberApp from './assets/dissertation.png';
 import phoney from './assets/phoney.gif';
 import snake from './assets/snake.gif';
 import iot from './assets/iot.jpg';
-import HorizontalScroll from 'react-scroll-horizontal';
 function SecondPage(): JSX.Element {
     return (
-        <>
+        
            
             <div id='container'>
 
@@ -49,7 +48,9 @@ function SecondPage(): JSX.Element {
 
 
             </div>
-        </>
+            
+
+
 
 
 

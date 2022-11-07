@@ -1,4 +1,4 @@
-import React from 'react';
+
 import ReactDOM from 'react-dom/client';
 import IntroPage from './intro';
 import './styling/index.css'

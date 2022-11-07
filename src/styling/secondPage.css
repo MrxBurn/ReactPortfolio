@@ -1,4 +1,5 @@
 #secondPage {
+    position: relative;;
     background-image: url('../assets/background.gif');
     background-position: center;
     background-repeat: no-repeat;
@@ -8,43 +9,45 @@
 }
 
 #container  {
-
-    text-align: center;
+    overflow-x:hidden;
+    overflow-y: auto;
    position: relative;
    top: 10%;
-    overflow: auto;
     margin: auto;
     bottom: 0;
     border-radius: 30px;
     background-color: rgba(0, 0, 0, 0.7);
-    width: 80%;
+    width: 60%;
     height: 80%;
 }
 
 h1 {
 
     color: white;
-    font-size: 64px;
+    font-size: 48px;
     padding: 30px;
 
 }
 
 #image {
     border-radius: 30px;
-    width: 100%;
+    max-width: 50%;
     height: 100%;
 }
 
 p {
+    position: relative;
+    margin: auto;
     text-align: left; 
-    padding: 0 10px 0;
+    padding: 15px 10px 0;
     color: white;
     font-size: 24px;
+    max-width: 70%;
 }
 
 #project  {
-    margin: auto;
-    width: 700px;
+text-align: center;
+    
 }
 
 #arrowUp {
@@ -52,35 +55,31 @@ p {
     position: absolute;
     margin-left: auto;
     margin-right: auto;
-    margin-top: 2rem;
     left: 0;
     right: 0;
     border-radius: 30px;
     border: 0;
     background-color: black;
     background-image: url(../assets/materialUI/arrow_up.svg);
-    width: 40px;
+    width: 100%;
     height: 40px;
     background-repeat: no-repeat;
     background-position: center;
 }
 
 #arrowDownBackground {
-    margin-left: 49.1%;
-    position:absolute;
-    left: 0;
-    right: 0;
-    top: 195vh;
-    
+    position: absolute;
+    bottom: 0;
     border-radius: 30px;
     border: 0;
     background-color: black;
     background-image: url(../assets/materialUI/arrow_down.svg);
-    width: 40px;
+    width: 100%;
     height: 40px;
     background-repeat: no-repeat;
     background-position: center;
     
     
 }
+
 

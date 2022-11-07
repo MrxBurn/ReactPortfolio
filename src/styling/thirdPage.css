@@ -1,0 +1,73 @@
+#thirdPage {
+    position: relative;;
+    background-image: url('../assets/background.gif');
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+}
+
+#contact {
+    text-align: center;
+    border-radius: 30px;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    background-color: rgba(0, 0, 0, 0.7);
+    max-width: 50%;
+   max-height: 70%;
+}
+
+h2 {
+    font-size: 20px;
+}
+
+a {
+    color: white;
+    font-weight: bold;
+    font-size: 24px;
+}
+
+#linkedin {
+    flex:33.3%;
+    background-image: url('../assets/materialUI/linkedIn.svg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    max-width: 50px;
+    height: 50px;
+}
+
+#facebook {
+    flex:33.3%;
+ 
+    background-image: url('../assets/materialUI/facebook.svg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    max-width: 50px;
+    height: 50px;
+}
+
+#instagram{
+    flex: 33.3%;
+    
+    background-image: url('../assets/materialUI/instagram.svg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    max-width: 50px;
+    height: 50px;
+}
+
+#socialMedia {
+    
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+    
+}
