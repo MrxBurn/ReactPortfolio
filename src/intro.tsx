@@ -17,12 +17,12 @@ function IntroPage(): JSX.Element {
         <button onClick={() => sRef.current?.scrollIntoView({ behavior: "smooth" })} id="arrowDown"></button>
       </div>
       <div ref={sRef} id="secondPage">
-      <button onClick={() => fRef.current?.scrollIntoView({ behavior: "smooth" })} id="arrowUp"></button>
+     
         <SecondPage/>
-        <button onClick={() => lRef.current?.scrollIntoView({ behavior: "smooth" })} id="arrowDownBackground"></button>
+        
       </div>
       <div ref={lRef} id="thirdPage">
-      <button onClick={() => sRef.current?.scrollIntoView({ behavior: "smooth" })} id="arrowUp"></button>     
+    
       <ThirdPage/> 
       </div>
    </>
